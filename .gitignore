@@ -2,6 +2,7 @@
 __pycache__/
 *.py[codz]
 *$py.class
+*.pyc
 
 # C extensions
 *.so
@@ -76,7 +77,7 @@ docs/_build/
 target/
 
 # Jupyter Notebook
-.ipynb_checkpoints
+.ipynb_checkpoints/
 
 # IPython
 profile_default/
@@ -216,3 +217,16 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+# Raw datasets
+data/raw/*
+
+# Processed datasets
+data/processed/*
+
+# Environment variables
+.env
+
+# OS files
+.DS_Store
+Thumbs.db
