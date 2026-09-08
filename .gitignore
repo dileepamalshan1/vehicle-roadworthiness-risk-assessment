@@ -224,3 +224,9 @@ __marimo__/
 # OS files
 .DS_Store
 Thumbs.db
+
+# Raw datasets
+data/raw/*
+
+# Processed datasets
+data/processed/*
