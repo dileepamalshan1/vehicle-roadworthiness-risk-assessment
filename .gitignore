@@ -218,12 +218,6 @@ __marimo__/
 # Streamlit
 .streamlit/secrets.toml
 
-# Raw datasets
-data/raw/*
-
-# Processed datasets
-data/processed/*
-
 # Environment variables
 .env
 
